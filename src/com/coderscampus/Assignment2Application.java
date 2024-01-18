@@ -9,8 +9,7 @@ public class Assignment2Application {
 
 		Random random = new Random();
 		int theRandomNumber = random.nextInt(1, 101);
-		System.out.println(theRandomNumber);
-
+		
 		for (int i = 1; i < 6; i++) {
 
 			Scanner scanner = new Scanner(System.in);
